@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Ensamble Stars!! | Login</title>
   </head>
   <body>
@@ -16,42 +23,46 @@
         </a>
       </h1>
       <!-- contant -->
-      <form action="#" method="post">
-        <fieldset class="login__box">
-          <legend>ID Login</legend>
-          <div>
-            <label for="user-id">ID</label>
-            <input
-              type="text"
-              class="login__user-id"
-              id="user-id"
-              placeholder="Please enter your ID"
-              required
-            />
-          </div>
-          <div>
-            <label for="user-pw">PW</label>
-            <input
-              type="password"
-              class="login__user-pw"
-              id="user-pw"
-              placeholder="Please enter your PW"
-              required
-            />
-          </div>
-          <div>
-            <label for="stay-siged">Stay signed in</label>
-            <input type="checkbox" id="stay-siged" />
-          </div>
-          <div>
-            <label for="ip-check">IP Security</label>
-            <input type="checkbox" id="ip-check" />
-          </div>
-          <button class="login__btn" type="submit">Login</button>
-        </fieldset>
-      </form>
-      <div>
-        <span>Find ID</span> | <span> Find PW</span> | <span>Join</span>
+      <div class="login">
+        <form action="#" method="post">
+          <fieldset class="login__box">
+            <legend>Login</legend>
+            <div>
+              <label for="user-id"></label>
+              <input
+                type="text"
+                class="login__user-id"
+                id="user-id"
+                placeholder="Please enter your ID"
+                required
+              />
+            </div>
+            <div>
+              <label for="user-pw"></label>
+              <input
+                type="password"
+                class="login__user-pw"
+                id="user-pw"
+                placeholder="Please enter your PW"
+                required
+              />
+            </div>
+            <div class="login__nav">
+              <div>
+                <input type="checkbox" id="stay-siged" />
+                <label for="stay-siged">Stay signed</label>
+              </div>
+              <div>
+                <label for="ip-check">IP Security</label>
+                <input type="checkbox" id="ip-check" />
+              </div>
+            </div>
+            <button class="login__btn" type="submit">Login</button>
+          </fieldset>
+        </form>
+        <article id="find-user">
+          <span>Find ID</span> | <span> Find PW</span> | <span>Join</span>
+        </article>
       </div>
     </section>
     <!-- //contant -->

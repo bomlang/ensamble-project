@@ -1,0 +1,60 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+#login__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login__title img {
+  width: 380px;
+  height: 270px;
+}
+
+.login__box {
+  width: 458px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_box div:first-child {
+  margin-top: 75px;
+}
+
+.login__nav {
+  display: flex;
+}
+
+.login__nav div:first-child {
+  margin-right: 100px;
+}
+
+.login__nav div:last-child {
+  margin-left: 100px;
+}
+
+.login__user-id,
+.login__user-pw {
+  width: 400px;
+  height: 47px;
+}
+
+.login__btn {
+  height: 51px;
+  width: 402px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#find-user {
+  text-align: center;
+}
