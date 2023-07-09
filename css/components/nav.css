@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: contrast(30%);
+  padding: 10px 30px;
+}
+
+/* title */
+.header__logo img {
+  width: 200px;
+  height: 70px;
+}
+
+.nav__list {
+  display: flex;
+}
